@@ -1,0 +1,136 @@
+/*for Visual Global*/
+
+#VisualHeader {
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal !important;
+  position: relative;
+  text-shadow: none;
+  text-align: center;
+  top: 0;
+  margin: 0 auto;
+  z-index: 999999;
+  background-color: white;
+  display: none;
+  .vi_panel {
+    position: relative;
+    border: 1px solid #FBF5F6;
+    border-radius: 15;
+    display: inline-block;
+    color: #000;
+    margin: 0 auto;
+    text-shadow: #fff 0 1px 0;
+    padding: 2px;
+    height: 50px;
+    #vi-fontsize {
+      display: inline-block;
+      padding: 5px;
+      a {
+        color: #000;
+        letter-spacing: 0;
+        margin: 2px;
+        outline: 0;
+        padding: 5px;
+        text-decoration: none;
+        &:hover {
+          background-color: #000;
+          border-radius: 3px;
+          color: #fff;
+        }
+      }
+      .active {
+        outline: 0;
+        background-color: #000;
+        color: #fff;
+        position: relative;
+        border-radius: 3px;
+      }
+      #vi-fontsize-smallest {
+        font-size: 14px;
+      }
+      #vi-fontsize-small {
+        font-size: 16px;
+      }
+      #vi-fontsize-normal {
+        font-size: 18px;
+      }
+      #vi-fontsize-big {
+        font-size: 22px;
+      }
+      #vi-fontsize-bigest {
+        font-size: 26px;
+      }
+    }
+    #vi-image {
+      display: inline-block;
+      padding: 5px;
+      font-size: 25px;
+      color: black;
+      a {
+        color: black;
+        width: 26px;
+        img {
+          padding-bottom:5px; 
+        }
+
+      }
+      .active {
+        border: 2px dashed black;
+        border-left: none;
+        border-right: none;
+      }
+      a:hover {
+        color: #2a1ca1;
+      }
+    }
+    #vi-colors {
+      display: inline-block;
+      padding: 5px;
+      font-size: 20px;
+      a {
+        color: #000;
+        letter-spacing: 0;
+        margin: 2px;
+        outline: 0;
+        padding: 5px;
+        text-decoration: none;
+        &:hover {
+          font-size: 25px;
+        }
+      }
+      .active {
+        font-size: 25px;
+      }
+      #vi-color1 {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 3px;
+        font-weight: 700;
+        text-shadow: none;
+      }
+      #vi-color2 {
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #000;
+        border-radius: 3px;
+        font-weight: 700;
+        text-shadow: none;
+      }
+      #vi-color3 {
+        background-color: #3b2716;
+        color: #a9e44d;
+        border: 1px solid #000;
+        border-radius: 3px;
+        font-weight: 700;
+        text-shadow: none;
+      }
+    }
+    #vi-close {
+      display: inline-block;
+      padding: 5px 10px;
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "special-view",
+  "version": "1.0.0",
+  "description": "SpecialView",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamaks/special-view.git"
+  },
+  "keywords": [
+    "jquery",
+    "special",
+    "view",
+    "specialview"
+  ],
+  "author": "Jamak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jamaks/special-view/issues"
+  },
+  "homepage": "https://github.com/Jamaks/special-view#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
